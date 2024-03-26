@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5OfoRAHkQgIOtdU340QirWYrCUdQckFUSxPvDCbRcgVbkSE26rUnVL6cxQC14lSBOQzqrjw1guiKPN4qMGOinQ==",
+  "dgSpecHash": "bNi56FmDSi43hKoodJxCYsKCKwbx8UU1oRRZsOYXTrbjEinPqt+D/XICGFo0jpWXRE3OKx6UN3muMNWNT4A48g==",
   "success": true,
   "projectFilePath": "C:\\Geff TI\\TestAlfaSoft\\ContactManagementApp\\ContactManagementApp.csproj",
   "expectedPackageFiles": [
@@ -17,11 +17,7 @@
     "C:\\Users\\geffs\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\geffs\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\geffs\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\geffs\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\geffs\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\geffs\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512",
-    "C:\\Users\\geffs\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\geffs\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512"
+    "C:\\Users\\geffs\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
