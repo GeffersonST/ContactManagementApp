@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ContactManagementApp.Repositories; // Importe o namespace do repositório
+using ContactManagementApp.Repositories;
 
 namespace ContactManagementApp.Pages
 {
@@ -25,6 +25,13 @@ namespace ContactManagementApp.Pages
             }
 
             return Page();
+        }
+
+        public IActionResult OnPostDelete(int id)
+        {
+            _contactRepository.DeleteContact(id);
+
+            return RedirectToPage("/Index"); // Redirecionar para a página principal após a exclusão
         }
     }
 }
