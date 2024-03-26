@@ -1,20 +1,14 @@
 using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql;
 
-namespace WebApplication2
+namespace ContactManagementApp
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
-        public ApplicationDbContext() : base()
-        {
-        }
-
-        public DbSet<Customer> Customers { get; set; }
-
+        // Adicione DbSet para suas entidades aqui
+        public DbSet<Contact> Contacts { get; set; } // Exemplo de DbSet para a entidade Contact
     }
 }
